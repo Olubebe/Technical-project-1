@@ -1,0 +1,20 @@
+.sign__page{
+    background: red;
+}
+
+.sign__font{
+  z-index: -3;
+}
+.sign__box{
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+}
+.sign__mail{
+    padding: 2px;
+    font-size: 700;
+}
+.sign__email{
+    border: 5px solid blue;
+    padding: 3px;
+}
