@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "../ErrorBoundary/Errorpage.css";
 
 const Errorpage = () => {
@@ -34,7 +35,7 @@ const Errorpage = () => {
             </p>
           </div>
           <div class="error__nav e-nav">
-            <a href="" target="_blanck" class="e-nav__link"></a>
+            <Link to="/">Home Page</Link>
           </div>
         </div>
       </section>
